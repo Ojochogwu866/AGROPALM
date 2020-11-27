@@ -299,7 +299,7 @@ body{
 .form{
     width: 200px;
     height: 205px;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: -200px;
     background: #fff;
     position: absolute;
@@ -484,7 +484,7 @@ body{
     text-align: center;
 }
 .rec-i{
-    width: 350px;
+    width: 340px;
     height: 180px;
     background: white;
     position: absolute;
@@ -519,7 +519,7 @@ body{
 }
 
 .rec-ii{
-    width: 350px;
+    width: 340px;
     height: 180px;
     background: white;
     position: absolute;
@@ -555,7 +555,7 @@ body{
 }
 
 .rec-iii{
-    width: 350px;
+    width: 340px;
     height: 180px;
     background: white;
     position: absolute;
