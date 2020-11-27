@@ -13,6 +13,7 @@ body{
     z-index: 100;
     background: #057135;
     top: 0px;
+    padding-right: 60px;
     
 }
 .nav-bar{
@@ -48,6 +49,7 @@ body{
     cursor: pointer;
     margin-top: 10px;
     transition: .3s ease transform;
+    padding-right: 60px;
 }
 
 .nav-bar .nav-list .hamburger.active .bar:before{
