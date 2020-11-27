@@ -13,7 +13,7 @@ body{
     z-index: 100;
     background: #057135;
     top: 0px;
-    padding-right: 60px;
+    
     
 }
 .nav-bar{
@@ -25,6 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 60px;
 }
 
 .nav-bar .nav-list{
