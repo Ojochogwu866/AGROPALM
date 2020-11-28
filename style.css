@@ -158,10 +158,13 @@ body{
     outline: none;
     width: 100%;
 }
-.about{
+.hero-container{
     width: 100%;
     height: auto;
     margin-top: 90px;
+}
+.about{
+    width: 100%;
 }
 .about .about-h1{
     color: #fff;
