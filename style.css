@@ -161,7 +161,10 @@ body{
 .hero-container{
     width: 100%;
     height: auto;
-    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
 }
 .about{
     width: 100%;
