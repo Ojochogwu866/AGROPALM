@@ -50,7 +50,7 @@ body{
     cursor: pointer;
     margin-top: 10px;
     transition: .3s ease transform;
-    margin-right: 60px;
+    margin-right: 90px;
 }
 
 .nav-bar .nav-list .hamburger.active .bar:before{
@@ -174,7 +174,7 @@ body{
     margin-left: 22px;
 }
 .about .about-p{
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
     line-height: 16px;
     font-family: 'lato', sans-serif;
