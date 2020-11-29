@@ -166,6 +166,7 @@ body{
     justify-content: center;
     margin-top: 70px;
 }
+
 .about{
     width: 100%;
 }
@@ -1972,7 +1973,17 @@ body{
         display: none;
     }
 }
-
+@media only screen and (max-width: 600px){
+    .about{
+        width: 100%;
+    }
+    .how-container{
+        width: 100%;
+    }
+    .how-con{
+        width: 100%;
+    }
+}
 
 
 
