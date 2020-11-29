@@ -172,13 +172,13 @@ body{
 }
 .about .about-h1{
     color: #fff;
-    font-size: 40px;
+    font-size: 55px;
     line-height: 40px;
     font-family: 'lato', sans-serif;
     font-weight: 900;
     text-align: start;
     display: flex;
-    margin-left: 22px;
+    margin-left: 50px;
 }
 .about .about-p{
     font-size: 12px;
