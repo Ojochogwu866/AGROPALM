@@ -1974,13 +1974,28 @@ body{
     }
 }
 @media only screen and (max-width: 600px){
-    .about{
+    .hero-container{
         width: 100%;
     }
     .how-container{
         width: 100%;
     }
-    .how-con{
+    .nav-bar{
+        width: 100%;
+    }
+    .footer-section{
+        width: 100%;
+    }
+    .invest{
+        width: 100%;
+    }
+    .products{
+        width: 100%;
+    }
+    .wga-container{
+        width: 100%;
+    }
+    .faq{
         width: 100%;
     }
 }
