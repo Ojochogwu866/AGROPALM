@@ -14,7 +14,6 @@ body{
     background: #057135;
     top: 0px;
     
-    
 }
 .nav-bar{
     background: #057135;
@@ -25,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    padding-right: 60px;
 }
 
 .nav-bar .nav-list{
@@ -50,6 +49,7 @@ body{
     cursor: pointer;
     margin-top: 10px;
     transition: .3s ease transform;
+    margin-right: -40px;
    
 }
 
@@ -158,17 +158,11 @@ body{
     outline: none;
     width: 100%;
 }
-.hero-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
-}
 
 .about{
     width: 100%;
+    height: auto;
+    margin-top: 90px;
 }
 .about .about-h1{
     color: #fff;
@@ -181,13 +175,12 @@ body{
     margin-left: 22px;
 }
 .about .about-p{
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     line-height: 16px;
     font-family: 'lato', sans-serif;
     text-align: start;
-    margin-left: 22px;
-    
+    margin-left: 22px;    
 }
 .about img{
     width: 80%;
@@ -303,13 +296,13 @@ body{
 .how-image img{
     width: 70%;
     height: 300px;
-    margin-left: 30px;
+    margin-left: 22px;
     margin-top:  60px;
 }
 .form{
     width: 200px;
     height: 205px;
-    margin-left: 160px;
+    margin-left: 22px;
     margin-top: -200px;
     background: #fff;
     position: absolute;
@@ -368,7 +361,7 @@ body{
     background: #fff;
     border: 1px;
     border-radius: 4px;
-    margin-left: 30px;
+    margin-left: 22px;
     margin-top: 8px;
 }
 .how-su h1{
@@ -403,7 +396,7 @@ body{
     background: #fff;
     border: 1px;
     border-radius: 4px;
-    margin-left: 30px;
+    margin-left: 22px;
     margin-top: 5px;
 }
 .how-su-2 h1{
@@ -438,7 +431,7 @@ body{
     background: #fff;
     border: 1px;
     border-radius: 4px;
-    margin-left: 30px;
+    margin-left: 22px;
     margin-top: 5px;
 }
 .how-su-3 h1{
@@ -495,11 +488,11 @@ body{
     text-align: center;
 }
 .rec-i{
-    width: 340px;
+    width: 350px;
     height: 180px;
     background: white;
     position: absolute;
-    left: 20px;
+    margin-left: 22px;
     margin-top: 0px;
     border-radius: 10px;
     border: 4px;
@@ -530,11 +523,11 @@ body{
 }
 
 .rec-ii{
-    width: 340px;
+    width: 350px;
     height: 180px;
     background: white;
     position: absolute;
-    left: 20px;
+    margin-left: 22px;
     margin-top: 190px;
     border-radius: 10px;
     border: 4px;
@@ -566,11 +559,11 @@ body{
 }
 
 .rec-iii{
-    width: 340px;
+    width: 350px;
     height: 180px;
     background: white;
     position: absolute;
-    left: 20px;
+    margin-left: 22px;
     margin-top: 385px;
     border-radius: 10px;
     border: 4px;
@@ -1183,7 +1176,7 @@ body{
     line-height: 23px;
     font-family: 'lato', sans-serif;
     font-weight: 800;
-    margin-top: -140px;
+    margin-top: -120px;
     margin-left: 22px;
 }
 .faq-1 p{
@@ -1314,7 +1307,7 @@ body{
 
 
 @media only screen and (min-width: 768px){
-    .nav-bar .nav-list .hamburger{
+     .nav-bar .nav-list .hamburger{
         display: none;
     }
     .nav-bar{
@@ -1334,7 +1327,7 @@ body{
     .nav-bar .nav-list ul li a{
         color: #fff;
     }
-  
+    
     .about .about-h1{
         font-size: 65px;
         line-height: 65px;
@@ -1417,22 +1410,22 @@ body{
 
     
     .rec-1{
-        margin-left: 350px;
+        margin-left: 150px;
     }
     .rec-2{
-        margin-left: 350px;
+        margin-left: 150px;
     }
     .rec-3{
-        margin-left: 350px;
+        margin-left: 150px;
     }
     .rec-4{
-        margin-left: 350px;
+        margin-left: 150px;
     }
     .rec-5{
-        margin-left: 350px;
+        margin-left: 150px;
     }
     .rec-6{
-        margin-left: 350px;
+        margin-left: 150px;
     }
     
 
@@ -1973,166 +1966,3 @@ body{
         display: none;
     }
 }
-@media only screen and (max-width: 468px){
-    .hero-container{
-        width: 100%;
-    }
-    .how-container{
-        width: 100%;
-    }
-    .nav-bar{
-        width: 100%;
-    }
-    .footer-section{
-        width: 100%;
-    }
-    .invest{
-        width: 100%;
-    }
-    .products{
-        width: 100%;
-    }
-    .wga-container{
-        width: 100%;
-    }
-    .faq{
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
