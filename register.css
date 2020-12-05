@@ -5,26 +5,28 @@
 }
 body{
     background: white; 
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .register-container{
     padding-left: 100px;
 }
 .image-container img{
     width: 470px;
-    height: 600px;
+    height: 500px;
     filter: brightness(0.3);
     position: relative;
-    left: 100px;
-    margin-top: 100px;
+    top: 50px;
+  
 }
  .register-container .h2-1{
     font-family: 'lato', sans-serif;
     background: #fff;
     text-align: start;
+     margin-left: 50px;
     font-size: 30px;
     font-weight: 800;
-    margin-left:200px;
     z-index: 1;
     top: 290px;
     padding-left: 10px;
@@ -37,7 +39,7 @@ body{
     text-align: start;
     font-size: 30px;
     font-weight: 800;
-    margin-left: 200px;
+    margin-left: 50px;
     z-index: 1;
     top: 330px;
     padding-left: 10px;
@@ -50,7 +52,7 @@ body{
     text-align: start;
     font-size: 30px;
     font-weight: 800;
-    margin-left: 200px;
+    margin-left: 50px;
     padding-left: 10px;
     padding-right: 10px;
     z-index: 1;
@@ -62,22 +64,21 @@ body{
     font-size: 14px;
     line-height: 14px;
     margin: 50px;
-    margin-top: 150px;
+    margin-top: 60px;
     font-family: 'nona', sans-serif;
     font-weight: 400;
     position: absolute;
     z-index: 1;
     color: #fff;
-    margin-left: 150px;
 }
 .reg-a:hover{
     color: blue;
 }
 .rec-2{
     width: 470px;
-    height: 600px;
-    margin-top: -604px;
-    margin-left: 570px;
+    height: 500px;
+    margin-top: -454px;
+    margin-left: 470px;
     border: 2px solid #e0e0e0;
     overflow: hidden;
 }
@@ -127,9 +128,12 @@ body{
     color: #828282;
 }
 .form .ref-code{
-    width: 200px;
-    left: 222px;
-    margin-top: -70px;
+   width: 150px;
+    height: 35px;
+    position: relative;
+    text-align: left;
+    margin-left: 180px;
+    top: -45px;
 }
 .form .refcode{
     color: #2F80ED;
@@ -142,8 +146,8 @@ body{
     margin-left: 80px;
 }
 .form button{
-    width: 300px;
-    height: 40px;
+    width: 200px;
+    height: 25px;
     display: inline-block;
     background: #057135;
     color: #fff;
@@ -151,13 +155,13 @@ body{
     font-size: 14px;
     line-height: 14px;
     text-align: center;
-    margin-top: 30px;
     justify-content: center;
     align-items: center;
-    margin-left: 70px;
     border: 1px solid #057136;
     cursor: pointer;
     position: relative;
+    margin-left: 120px;
+    top: -37px;
     outline: none;
 }
 .form .agree{
@@ -166,7 +170,7 @@ body{
     font-size: 12px;
     line-height: 12px;
     font-weight: 600;
-    margin-top: 10px;
+    top: 0px;
     margin-left: -10px;
     display: flex;
     flex-direction: column;
@@ -178,31 +182,25 @@ body{
 }
 @media (max-width: 768px){
     .image-container img{
-        visibility: hidden;
+        display: none;
     }
     .register-container .h2-1{
-        visibility: hidden;
+        display: none;
     }
     .register-container .h2-2{
-        visibility: hidden;
+        display: none;
     }
     .register-container .h2-3{
-        visibility: hidden;
+        display: none;
     }
       .rec-2{
-       box-shadow: 0 5px 10px 0px rgba(0,0,0,0.1);  
+        box-shadow: 0 5px 10px 0px rgba(0,0,0,0.1);  
+        margin-top: 30px;
+          margin-left: 0px;
     }
-    .rec-2{
-        margin-left: 30px;
-        margin-top: -500px;
-        overflow: hidden;
-    }
+   
     .reg-a{
-        color: #000000;
-        margin-left: 35px;
-        font-weight: 700;
-        margin-top: 90px;
-    
+        display: none;
     }
     .reg-a{
         top: 100px;
@@ -211,8 +209,8 @@ body{
 
 @media (max-width: 600px){
     .rec-2{
-        margin-left: -50px;
         width: 400px;
+        margin-left: -70px;
     }
     .form input{
         width: 300px;
@@ -220,7 +218,7 @@ body{
     }
     .form .ref-code{
         width: 100px;
-        margin-left: 20px;
+        margin-left: 210px;
     }
     .form .refcode{
         margin-left: 110px;
