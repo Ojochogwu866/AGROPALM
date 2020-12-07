@@ -1,299 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    background: white; 
+section{
+    position: relative;
+    min-height: 100vh;
+    background: #057135;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
+    padding: 20px;
+    
 }
-
-.login{
-    margin-top: 30px;
-}
-
-.login img{
-    width: 470px;
-    height: 500px;
-    filter: brightness(0.3);
+section .container{
     position: relative;
-    margin-top: 0px;
-    margin-left: -470px;
-   
-}
-.h2-login1{
-    font-family: 'lato', sans-serif;
+    width: 800px;
+    height: 500px;
     background: #fff;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    margin-left: -350px;
-    z-index: 1;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute; 
-    margin-top: -350px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
-.h2-login2{
-    font-family: 'lato', sans-serif;
-    background: #fff;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    margin-left: -350px;
-    z-index: 1;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute; 
-    margin-top: -310px;
-    display: flex;
-}
-.h2-login3{
-    font-family: 'lato', sans-serif;
-    background: #fff;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    margin-left: -350px;
-    z-index: 1;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute; 
-    margin-top: -270px;
-    display: flex;
-}
-.form2{
-    width: 470px;
-    background: #ffffff;
-    border: 2px solid #e0e0e0;
+section .container .user{
     position: absolute;
-    margin-top: -505px;
-    height: 500px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
-
-.password i{
-    color: #000000;
+section .container .user .imgbx{
     position: relative;
-    opacity: 0.3;
-    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    background: #fff;
 }
-.form2 h4{
-    color:#BDBDBD;
-    font-family: 'nova', sans-serif;
-    font-size: 12px;
-    line-height: 12px;
-    margin-top: 10px;
-    margin-left: 22px;
-    text-align: start;
+section .container .user .imgbx img{
+    filter: brightness(0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.form2 h3{
-    font-family: 'nova', sans-serif;
+section .container .user .imgbx .h2-1{
+    color: #057135;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #fff;
+    letter-spacing: 0;
+    top: 170px;
+    left: 70px;
+}
+section .container .user .imgbx .h2-2{
+       color: #057135;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #fff;
+    letter-spacing: 0;
+    top: 205px;
+    left: 70px; 
+}
+section .container .user .imgbx .h2-3{
+       color: #057135;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #fff;
+    letter-spacing: 0;
+    top: 240px;
+    left: 70px;
+}
+section .container .user .formbx{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+section .container .user .formbx form h2{
     font-size: 20px;
-    line-height: 20px;
-    font-weight: 600;
-    margin-top: 200px;
-    margin-left: 20px;
-    text-align: left;
-}
-.form2 h5{
-    display: flex;
-    font-size: 12px;
-    line-height: 15px;
     font-weight: 700;
-    font-family: 'lato', sans-serif;
-    margin-top: -15px;
-    margin-left: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
 }
-.form2 h5 a{
-    text-decoration: none;
-}
-.form2 input{
-    width: 400px;
-    height: 50px;
+section .container .user .formbx form input{
     position: relative;
-    left: 25px;
-    margin-top: 20px;
-    border: 2px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border: 1.5px solid #000;
     outline: none;
-    font-family: 'lato', sans-serif;
-    font-size: 13px;
-    line-height: 10px;
-    border-radius: 3px;
-    justify-content: space-between;
-    padding-left: 30px; 
-    color: #828282;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
 }
-.form2 button{
-    width: 150px;
-    height: 40px;
+section .container .user .formbx form input[type='submit']{
+    width: 100px;
+    background: #057135;
     color: #fff;
-    background-color: #057135;
-    margin-left: 270px;
-    margin-top: 15px;
-    border: 0px solid #057135;
     cursor: pointer;
-    outline: none;
-    font-size: 12px;
-    font-family: 'lato', sans-serif;
-    position: relative;
-}
-.login-a{
-    font-family: 'lato', sans-serif;
     font-size: 14px;
-    line-height: 20px;
-    font-weight: 700;
-    display: flex;
-    margin-left: 120px;
-    margin-top: -30px;
-    position: absolute;
-    text-decoration: none;
-}
-.login .btw{
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 14px;
-    margin: 50px;
-    
-    left: 100px;
-    font-family: 'nona', sans-serif;
-    font-weight: 400;
-    position: absolute;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: 1px solid #057135;
     margin-left: 200px;
-    z-index: 1;
-    color: #fff;
 }
-.login .btw:hover{
-    color: red;
-}
-
-
-@media only screen and (max-width: 768px){
-     .login img{
-       display: none;
-    }
-    .h2-login1 {
-        display: none;
-    }
-    .h2-login2{
-        display: none;
-    }
-    .h2-login3{
-        display: none;
-    }
-  
-    .form2{
-        box-shadow: 0 5px 10px 0px rgba(0,0,0,0.1);
-        justify-content: center; 
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        top: 600px;
-        right: 150px;
-    }
-    .login .btw{
-        top: -330px;
-        color: #000;
-        font-weight: 700;
-        left: 22px;
-    }
-   
+section .container ,user .formbx form .signup{
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: gray;
+    text-transform: none;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
     
 }
-@media only screen and (max-width: 600px){
-    .form2{
-        width: 400px;
-        height: 500px;
-        left: 50px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .form2 input{
-        width: 350px;
-    }
-    .form2 button{
-        margin-left: 220px;
-    }
-    .login-a{
-        margin-left: 80px;
-    }
-    .form2 button:hover{
-        opacity: 0.2;
-    }
-     .login .btw{
-        color: #000000;
-        font-weight: 700;
-        margin-left: 22px;
-        position: absolute;
-        top: -330px;
-    }
-    
- 
+section .container .user .formbx form .signup a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #006994;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section .container .user .formbx form .fp{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: gray;
+    text-transform: none;
+    font-weight: 600;
+    text-decoration: none;
+    color: #006994;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+@media (max-width: 991px){
+    section .container{
+        max-width: 400px;
+    }
+    section .container .imgbx{
+        display: none;
+    }
+    section .container .user .formbx{
+        width: 100%;
+    }
+}
