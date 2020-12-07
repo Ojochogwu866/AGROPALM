@@ -1,239 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    background: white; 
+section{
+    position: relative;
+    min-height: 100vh;
+    background: #057135;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
+    padding: 20px;
+    
 }
-.register-container{
-    padding-left: 100px;
-}
-.image-container img{
-    width: 470px;
-    height: 500px;
-    filter: brightness(0.3);
+section .container{
     position: relative;
-    top: 50px;
-  
-}
- .register-container .h2-1{
-    font-family: 'lato', sans-serif;
-    background: #fff;
-    text-align: start;
-     margin-left: 50px;
-    font-size: 30px;
-    font-weight: 800;
-    z-index: 1;
-    top: 290px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute;
-}
- .register-container .h2-2{
-    font-family: 'lato', sans-serif;
-    background: #fff;
-    text-align: start;
-    font-size: 30px;
-    font-weight: 800;
-    margin-left: 50px;
-    z-index: 1;
-    top: 330px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute;
-}
- .register-container .h2-3{
-    font-family: 'lato', sans-serif;
-    background: #fff;
-    text-align: start;
-    font-size: 30px;
-    font-weight: 800;
-    margin-left: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    z-index: 1;
-    top: 370px;
-    position: absolute;
-}
-.reg-a{
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 14px;
-    margin: 50px;
-    margin-top: 60px;
-    font-family: 'nona', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    z-index: 1;
-    color: #fff;
-}
-.reg-a:hover{
-    color: blue;
-}
-.rec-2{
-    width: 470px;
+    width: 800px;
     height: 500px;
-    margin-top: -454px;
-    margin-left: 470px;
-    border: 2px solid #e0e0e0;
+    background: #fff;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-.rec-2 h3{
-    font-size: 22px;
-    font-family: 'nova', sans-serif;
-    font-weight: 600;
-    line-height: 22px;
-    margin-left: 20px;
-    margin-top: 30px;
-}
-.rec-2 p{
-    font-weight: 700;
-    font-family: 'nova', sans-serif;
-    font-size: 12px;
-    line-height: 12px;
-    margin-left: 195px;
+section .container .user{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    margin-top: -13.7px;
 }
-.rec-2 p a{
-    text-decoration: none;
-}
-.rec-2 h5{
-    color:#BDBDBD;
-    font-family: 'nova', sans-serif;
-    font-size: 12px;
-    line-height: 12px;
-    margin-top: 10px;
-    margin-left: 22px;
-    text-align: start;
-}
-.form input{
-    width: 400px;
-    height: 50px;
+section .container .user .imgbx{
     position: relative;
-    left: 25px;
-    margin-top: 20px;
-    border: 2px solid #e0e0e0;
-    outline: none;
-    font-family: 'lato', sans-serif;
-    font-size: 13px;
-    line-height: 10px;
-    border-radius: 3px;
-    justify-content: space-between;
-    padding-left: 30px; 
-    color: #828282;
+    width: 50%;
+    height: 100%;
+    background: #fff;
 }
-.form .ref-code{
-   width: 150px;
-    height: 35px;
+section .container .user .imgbx img{
+    filter: brightness(0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .container .user .imgbx .h2-1{
+    color: #057135;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #fff;
+    letter-spacing: 0;
+    top: 170px;
+    left: 70px;
+}
+section .container .user .imgbx .h2-2{
+       color: #057135;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #fff;
+    letter-spacing: 0;
+    top: 205px;
+    left: 70px; 
+}
+section .container .user .imgbx .h2-3{
+       color: #057135;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: #fff;
+    letter-spacing: 0;
+    top: 240px;
+    left: 70px;
+}
+section .container .user .regformbx{
     position: relative;
-    text-align: left;
-    margin-left: 180px;
-    top: -45px;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
 }
-.form .refcode{
-    color: #2F80ED;
-    font-size: 14px;
-    line-height: 14px;
+section .container .user .regformbx form h2{
+    font-size: 20px;
     font-weight: 700;
-    font-family: 'nova', sans-serif;
-    text-align: start;
-    margin-top: 30px;
-    margin-left: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
 }
-.form button{
-    width: 200px;
-    height: 25px;
-    display: inline-block;
+section .container .user .regformbx form input{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    border: 1.5px solid #000;
+    outline: none;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
+
+section .container .user .regformbx form input[type='submit']{
+    height: 40px;
     background: #057135;
     color: #fff;
-    font-family: 'nova', sans-serif;
+    cursor: pointer;
     font-size: 14px;
-    line-height: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border: 1px solid #057135;
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 1px solid #057136;
-    cursor: pointer;
+    width: 200px;
+    left: 50px;
+}
+section .container .user .regformbx form .signin{
     position: relative;
-    margin-left: 120px;
-    top: -37px;
-    outline: none;
-}
-.form .agree{
-    text-align: center;
-    font-family: 'nova'. sans-serif;
     font-size: 12px;
-    line-height: 12px;
+    letter-spacing: 1px;
+    color: gray;
+    text-transform: none;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    left: 50px;
+    
+}
+section .container .user .regformbx form .signin a{
     font-weight: 600;
-    top: 0px;
-    margin-left: -10px;
-    display: flex;
-    flex-direction: column;
-    color: #028282;
+    text-decoration: none;
+    color: #006994;
 }
-.form .agree span{
+section .container .user .regformbx form .agree{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: gray;
+    text-transform: none;
+    font-weight: 600;
+    text-decoration: none;
+    color: #006994;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 20px;
+    widows: 100px;
+    top: 20px;
+    text-align: center;
+}
+section .container .user .regformbx form .agree span{
     color: #057135;
-    margin-top: 5px;
-}
-@media (max-width: 768px){
-    .image-container img{
-        display: none;
-    }
-    .register-container .h2-1{
-        display: none;
-    }
-    .register-container .h2-2{
-        display: none;
-    }
-    .register-container .h2-3{
-        display: none;
-    }
-      .rec-2{
-        box-shadow: 0 5px 10px 0px rgba(0,0,0,0.1);  
-        margin-top: 30px;
-          margin-left: 0px;
-    }
-   
-    .reg-a{
-        display: none;
-    }
-    .reg-a{
-        top: 100px;
-    }
 }
 
-@media (max-width: 600px){
-    .rec-2{
-        width: 400px;
-        margin-left: -70px;
+@media (max-width: 991px){
+    section .container{
+        max-width: 400px;
     }
-    .form input{
-        width: 300px;
-        margin-left: 20px;
+    section .container .imgbx{
+        display: none;
     }
-    .form .ref-code{
-        width: 100px;
-        margin-left: 210px;
+    section .container .user .regformbx{
+        width: 100%;
     }
-    .form .refcode{
-        margin-left: 110px;
-    }
-    .rec-2 h5{
-        text-align: center;
-      }
-     .form button{
-        width: 300px;
-        margin-left: 50px;
-    }
-    .reg-a{
-        color: #000000;
-        margin-left: -40px;
-        font-weight: 700;
-        margin-top: 90px;
-    
-    }
+}
