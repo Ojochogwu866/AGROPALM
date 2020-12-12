@@ -1118,7 +1118,7 @@ overflow: hidden;
 }
 
 .rec-1{
-    width: 350px;
+    width: 330px;
     height: 70px;
     margin-top: 20px;
     margin-left: 10px;
@@ -1136,7 +1136,7 @@ overflow: hidden;
     margin: 5px;
 }
 .rec-2{
-    width: 350px;
+    width: 330px;
     height: 70px;
      margin-top: 5px;
     margin-left: 10px;
@@ -1154,7 +1154,7 @@ overflow: hidden;
     margin: 5px;
 }
 .rec-3{
-    width: 350px;
+    width: 330px;
     height: 70px;
     margin-top: 5px;
     margin-left: 10px;
@@ -1172,7 +1172,7 @@ overflow: hidden;
     margin: 5px;
 }
 .rec-4{
-    width: 350px;
+    width: 330px;
     height: 70px;
    margin-top: 5px;
     margin-left: 10px;
@@ -1190,7 +1190,7 @@ overflow: hidden;
     margin: 5px;
 }
 .rec-5{
-    width: 350px;
+    width: 330px;
     height: 70px;
     margin-top: 5px;
     margin-left: 10px;
@@ -1208,7 +1208,7 @@ overflow: hidden;
     margin: 5px;
 }
 .rec-6{
-    width: 350px;
+    width: 330px;
     height: 100px;
     margin-top: 5px;
     margin-left: 10px;
@@ -1243,7 +1243,7 @@ overflow: hidden;
     line-height: 23px;
     font-family: 'lato', sans-serif;
     font-weight: 800;
-    margin-top: -150px;
+    margin-top: -120px;
     margin-left: 22px;
 }
 .faq-1 p{
@@ -1478,7 +1478,8 @@ overflow: hidden;
         width: 60%;
         margin-left: 22px;
     }
-
+    .faq-1 h3{
+        margin-top: -150px;}
     
     .rec-1{
         margin-left: 150px;
