@@ -263,6 +263,7 @@ body{
 
 .how-container{
     background: #e5e5e5;
+    overflow:hidden;
     
 }
 .how-header{
