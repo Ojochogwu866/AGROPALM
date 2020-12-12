@@ -157,7 +157,7 @@ section .container .user .regformbx form .agree{
     font-family: 'Poppins', sans-serif;
     position: relative;
     left: 20px;
-    widows: 100px;
+    width: 100px;
     top: 20px;
     text-align: center;
 }
