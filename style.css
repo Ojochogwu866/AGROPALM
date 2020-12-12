@@ -186,6 +186,7 @@ body{
     height: 90%;
     margin-left: 22px;
     margin-top: 15px;
+    filter: brightness(0.1);
     
 }
 .about .notify h4{
@@ -258,6 +259,58 @@ body{
     position: absolute;
     font-family: 'lato', sans-serif;
     font-size: 12px;
+}
+.animate p{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow: hidden;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.typed-text{
+    color: #0fff;
+    font-weight: 600;
+    margin-left: 4px;
+    
+}
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: #057135;
+    margin-left: 0.5rem;
+    animation: blink 1s infinite;
+}
+.cursor.typing {
+    animation: none;
+}
+@keyframes blink{
+    0% {
+        background: #db6e2b;
+    }
+    49%{
+        background-color: #db6e2b;
+    }
+    50%{
+        background-color: transparent;
+    }
+     99%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: #db6e2b;
+    }
 }
   
 
@@ -1321,6 +1374,9 @@ overflow: hidden;
 
 
 @media only screen and (min-width: 768px){
+      .animate{
+        display: none;
+    }
      .nav-bar .nav-list .hamburger{
         display: none;
     }
@@ -1353,6 +1409,7 @@ overflow: hidden;
     }
     .about img{
         margin-left: 100px;
+        filter: none;
     }
     .about .notify h4{
         margin-left: 100px;
@@ -1964,6 +2021,12 @@ overflow: hidden;
     margin-left: 25px;
     color: #057135; 
   }
+       .about img{
+        filter: none;
+    }
+    .animate{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1200px){
