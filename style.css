@@ -550,7 +550,7 @@ body{
     height: 180px;
     background: white;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 0px;
     border-radius: 10px;
     border: 4px;
@@ -575,17 +575,18 @@ body{
 }
 .rec-i a{
     text-decoration: none;
+    font-size: 8px;
     top: 20px;
     margin-left: 240px;
     color: #057135;
 }
 
 .rec-ii{
-    width: 350px;
+    width: 90%;
     height: 180px;
     background: white;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 190px;
     border-radius: 10px;
     border: 4px;
@@ -611,17 +612,18 @@ body{
 }
 .rec-ii a{
     text-decoration: none;
+    font-size: 8px;
     top: 20px;
     margin-left: 240px;
     color: #057135;
 }
 
 .rec-iii{
-    width: 350px;
+    width: 90%;
     height: 180px;
     background: white;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 385px;
     border-radius: 10px;
     border: 4px;
@@ -646,6 +648,7 @@ body{
     margin-left: 10px;
 }
 .rec-iii a{
+    font-size: 8px;
     text-decoration: none;
     top: 20px;
     margin-left: 240px;
