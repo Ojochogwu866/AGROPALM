@@ -161,6 +161,7 @@ body{
     width: 100%;
     height: auto;
     margin-top: 90px;
+    overflow: hidden;
 }
 .about .about-h1{
     color: #fff;
@@ -262,6 +263,7 @@ body{
 
 .how-container{
     background: #e5e5e5;
+    overflow: hidden;
 }
 .how-header{
     margin-top: 150px;
@@ -290,6 +292,10 @@ body{
     width: 100%;
     background: #9acd39;
     margin-top: 20px;
+    overflow: hidden;
+}
+.how-image{
+    overflow: hidden;
 }
 .how-image img{
     width: 70%;
@@ -621,6 +627,10 @@ body{
     height: 2160px;
     width: 100%;
     background: #fff;
+    overflow: hidden;
+}
+.invest-image{
+    overflow: hidden;
 }
 .invest-image img{
     width: 80%;
@@ -736,7 +746,9 @@ body{
     margin-top: 20px;
     margin-left: 22px;
 }
-
+.invest-image-1{
+overflow: hidden;
+}
 .invest-image-1 img{
     width: 80%;
     height: 250px;
@@ -855,6 +867,9 @@ body{
     width: 80%;
     height: 250px;
     margin: 40px;
+}
+.invest-image-11{
+    overflow: hidden;
 }
 .invest-1 i11 {
     font-size: 22px;
