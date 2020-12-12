@@ -128,7 +128,7 @@ section .container .user .regformbx form input[type='submit']{
     justify-content: center;
     align-items: center;
     width: 200px;
-    left: 50px;
+    left: 30px;
 }
 section .container .user .regformbx form .signin{
     position: relative;
@@ -156,8 +156,7 @@ section .container .user .regformbx form .agree{
     color: #006994;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 20px;
-    width: 100px;
+    width: 250px;
     top: 20px;
     text-align: center;
 }
