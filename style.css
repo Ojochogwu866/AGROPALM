@@ -186,7 +186,7 @@ body{
     height: 90%;
     margin-left: 22px;
     margin-top: 15px;
-    filter: brightness(0.1);
+    filter: brightness(0.25);
     
 }
 .about .notify h4{
