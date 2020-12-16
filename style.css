@@ -1230,6 +1230,19 @@ overflow: hidden;
     margin-top: 10px;
     margin-left: 10px;
 }
+.faq-header{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 800;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.2rem;
+    opacity: 50%;
+    font-size: 18px;
+}
 .faq-image{
     width: 100%;
     height: 250px;
@@ -1488,23 +1501,28 @@ overflow: hidden;
     .faq-1 h3{
         margin-top: -150px;}
     
-    .rec-1{
-        margin-left: 150px;
+       .rec-1{
+        margin-left: 40px;
     }
     .rec-2{
-        margin-left: 150px;
+        margin-left: 400px;
+        margin-top: -70px;
     }
     .rec-3{
-        margin-left: 150px;
+        margin-left: 40px;
     }
     .rec-4{
-        margin-left: 150px;
+        margin-left: 400px;
+        margin-top: -70px;
     }
     .rec-5{
-        margin-left: 150px;
+        margin-left: 40px;
+        width: 91%;
     }
     .rec-6{
         margin-left: 150px;
+        margin-left: 40px;
+        width: 91%;
     }
     
 
