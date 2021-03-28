@@ -219,6 +219,7 @@ body{
     outline: none;
     border-radius: 0px 5px 5px 0px;
     top: 0px;
+    margin-top: -1px;
         
 }
 .about .notify button:hover{
